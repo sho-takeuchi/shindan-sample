@@ -1,0 +1,129 @@
+body{
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.7;
+  #wrapper{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    .question{
+      .title{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+      .questions{
+        background: #f1f1f1;
+        padding: 20px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        .textBox{
+          margin-bottom: 10px;
+          .text{
+            display: inline-block;
+            width: 350px;
+          }
+          .yes{
+            .inputY{
+              vertical-align: middle;
+            }
+          }
+          .no{
+            margin-left: 15px;
+            .inputN{
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+      button{
+        background: #5c90d2;
+        width: 250px;
+        display: block;
+        margin: 20px auto 30px;
+        text-align: center;
+        padding: 15px 10px;
+        font-size: 18px;
+        font-weight: bold;
+        box-shadow: none;
+        color: #fff;
+        border: none;
+        box-sizing: border-box;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+    .resultResultA{
+      padding: 20px;
+      border: 3px solid #f1f1f1;
+      box-sizing: border-box;
+      margin: 0 auto;
+      .recommend{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      &__menu{
+        margin-bottom: 20px;
+        text-align: center;
+        &__text{
+        font-size: 24px;
+        font-weight: bold;
+        }
+      }
+      p{
+        text-align: justify;
+      }
+    }
+    .resultResultB{
+      padding: 20px;
+      border: 3px solid #f1f1f1;
+      box-sizing: border-box;
+      margin: 0 auto;
+      .recommend{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      &__menu{
+        margin-bottom: 20px;
+        text-align: center;
+        &__text{
+        font-size: 24px;
+        font-weight: bold;
+        }
+      }
+      p{
+        text-align: justify;
+      }
+    }
+    .resultResultC{
+      .recommend{
+
+      }
+      strong{
+
+      }
+      p{
+
+      }
+    }
+    .resultResultD{
+
+      .recommend{
+
+      }
+      strong{
+
+      }
+      p{
+
+      }
+    }
+  }
+}
