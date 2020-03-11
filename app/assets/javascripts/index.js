@@ -1,9 +1,8 @@
 $(function(){
- 
   //ボタンがクリックされた時
   $("button").cllick(function(){
   //一度結果を非表示にする
-    $(".result").hide();   
+    $(".resultResult").hide();   
     //問題数を取得
     var qNum = $("ul li").length;
     

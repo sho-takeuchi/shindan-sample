@@ -27,15 +27,11 @@ body{
             width: 350px;
           }
           .yes{
-            .inputY{
-              vertical-align: middle;
-            }
+            vertical-align: middle;
           }
           .no{
+            vertical-align: middle;
             margin-left: 15px;
-            .inputN{
-              vertical-align: middle;
-            }
           }
         }
       }
@@ -56,18 +52,19 @@ body{
         cursor: pointer;
       }
     }
-    .resultResultA{
+    .result.ResultA{
       padding: 20px;
       border: 3px solid #f1f1f1;
       box-sizing: border-box;
       margin: 0 auto;
+      display: none;
       .recommend{
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
         font-weight: bold;
       }
-      &__menu{
+      &__Amenu{
         margin-bottom: 20px;
         text-align: center;
         &__text{
@@ -79,18 +76,19 @@ body{
         text-align: justify;
       }
     }
-    .resultResultB{
+    .result.ResultB{
       padding: 20px;
       border: 3px solid #f1f1f1;
       box-sizing: border-box;
       margin: 0 auto;
+      display: none;
       .recommend{
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
         font-weight: bold;
       }
-      &__menu{
+      &__Bmenu{
         margin-bottom: 20px;
         text-align: center;
         &__text{
@@ -102,27 +100,52 @@ body{
         text-align: justify;
       }
     }
-    .resultResultC{
+    .result.ResultC{
+      padding: 20px;
+      border: 3px solid #f1f1f1;
+      box-sizing: border-box;
+      margin: 0 auto;
+      display: none;
       .recommend{
-
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
       }
-      strong{
-
+      &__Cmenu{
+        margin-bottom: 20px;
+        text-align: center;
+        &__text{
+        font-size: 24px;
+        font-weight: bold;
+        }
       }
       p{
-
+        text-align: justify;
       }
     }
-    .resultResultD{
-
+    .result.ResultD{
+      padding: 20px;
+      border: 3px solid #f1f1f1;
+      box-sizing: border-box;
+      margin: 0 auto;
+      display: none;
       .recommend{
-
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
       }
-      strong{
-
+      &__Dmenu{
+        margin-bottom: 20px;
+        text-align: center;
+        &__text{
+        font-size: 24px;
+        font-weight: bold;
+        }
       }
       p{
-
+        text-align: justify;
       }
     }
   }

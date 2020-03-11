@@ -5,71 +5,71 @@
       %li{"class"=>"textBox"}
         %span{"class"=>"text"}Q1. こってりしたものが食べたい
         %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q01", :class=>"inputY"}
+          %input{:type=> "radio", :name=> "q01", :class=>"typeB typeC"}
           YES 
         %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q01", :class=>"inputN"}
+          %input{:type=> "radio", :name=> "q01", :class=>"typeA typeD"}
           NO
       %li{"class"=>"textBox"}
         %span{"class"=>"text"}Q2. 時間がないからすぐに食べたい
         %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q02", :class=>"inputY"}
+          %input{:type=> "radio", :name=> "q02", :class=>"typeB typeD"}
           YES
         %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q02", :class=>"inputN"}
+          %input{:type=> "radio", :name=> "q02", :class=>"typeA typeC"}
           NO
       %li{"class"=>"textBox"}
         %span{"class"=>"text"}Q3. お腹が空いたからガッツリ食べたい
         %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q03", :class=>"inputY"}
+          %input{:type=> "radio", :name=> "q03", :class=>"typeB typeC"}
           YES
         %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q03", :class=>"inputN"}
+          %input{:type=> "radio", :name=> "q03", :class=>"typeA typeD"}
           NO
       %li{"class"=>"textBox"}
         %span{"class"=>"text"}Q4. 節約中だから安くおさえたい。
         %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q04", :class=>"inputY"}
+          %input{:type=> "radio", :name=> "q04", :class=>"typeB typeD"}
           YES
         %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q04", :class=>"inputN"}
+          %input{:type=> "radio", :name=> "q04", :class=>"typeA typeC"}
           NO
       %li{"class"=>"textBox"}
         %span{"class"=>"text"}Q5. ダイエット中だからヘルシーに済ませたい
         %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q05", :class=>"inputY"}
+          %input{:type=> "radio", :name=> "q05", :class=>"typeA typeD"}
           YES
         %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q05", :class=>"inputN"}
+          %input{:type=> "radio", :name=> "q05", :class=>"typeB typeC"}
           NO
     %button
       診断する
-  .resultResultA
+  .result.ResultA
     %h2{"class"=>"recommend"}あなたにオススメの昼食は...
-    .resultResultA__menu
-      .resultResultA__menu__text
+    .result.ResultA__Amenu
+      .result.ResultA__Amenu__text
         和食
     %p
       ヘルシーに済ませたいあなたには和食がオススメ！一汁三菜の定食メニューだとなおバランスよし。
-  .resultResultB
+  .result.ResultB
     %h2{"class"=>"recommend"}あなたにオススメの昼食は...
-    .resultResultB__menu
-      .resultResultB__menu__text
-      ファーストフード
+    .result.ResultB__Bmenu
+      .result.ResultB__Bmenu__text
+        ファーストフード
     %p
       手軽にお腹を満たしたいあなたにはファストフードがオススメ！牛丼やハンバーガーでお腹を満たしましょう。
-  .resultResultC
+  .result.ResultC
     %h2{"class"=>"recommend"}あなたにオススメの昼食は...
-    .resultResultC__menu
-      .resultResultC__menu__text
-      中華
+    .result.ResultC__Cmenu
+      .result.ResultC__Cmenu__text
+        中華
     %p
       こってり満腹メニューを食べたいあなたには中華がオススメ！胃もたれが心配なときはウーロン茶を添えて。
-  .resultResultD
+  .result.ResultD
     %h2{"class"=>"recommend"}あなたにオススメの昼食は...
-    .resultResultD__menu
-      .resultResultD__menu__text
-      自炊
+    .result.ResultD__Dmenu
+      .result.ResultD__Dmenu__text
+        自炊
     %p
       安くヘルシーに済ませたいあなたには自炊がオススメ！頑張ってお弁当を作りましょう。
 
