@@ -1,8 +1,8 @@
 $(function(){
   //ボタンがクリックされた時
-  $("button").cllick(function(){
+  $("button").on("click", function(){
   //一度結果を非表示にする
-    $(".resultResult").hide();   
+    $(".result").hide();   
     //問題数を取得
     var qNum = $("ul li").length;
     
@@ -13,13 +13,23 @@ $(function(){
     else {
         //チェックされているinputの数を取得
         var typeANum = $(".typeA:checked").length,
-        typeBNum = $(".typeB:checked").length;
-      if( typeANum > typeBNum ) {
+        typeBNum = $(".typeB:checked").length,
+        typeCNum = $(".typeC:checked").length,
+        typeDNum = $(".typeD:checked").length;
+      if( typeANum > typeBNum + typeCNum + typeDNum / 3 ) {
         //もしもAの方が多かったらAタイプを表示
-        $(".resultA").fadeIn();
-      } else if( typeANum < typeBNum ) {
+        $(".ResultA").fadeIn();
+      } else if( typeBNum > typeANum + typeCNum + typeDNum / 3 ) {
         //もしもBの方が多かったらBタイプを表示
-        $(".resultB").fadeIn();
+        $(".ResultB").fadeIn();
+      }
+      else if( typeCNum > typeANum + typeBNum + typeDNum / 3 ) {
+        //もしもBの方が多かったらBタイプを表示
+        $(".ResultC").fadeIn();
+      }
+      else if( typeDNum > typeANum + typeBNum + typeCNum / 3 ) {
+        //もしもBの方が多かったらBタイプを表示
+        $(".ResultD").fadeIn();
       }
     }
   });
