@@ -52,13 +52,13 @@ body{
         cursor: pointer;
       }
     }
-    .result.ResultA{
+    .ResultA{
       padding: 20px;
       border: 3px solid #f1f1f1;
       box-sizing: border-box;
       margin: 0 auto;
       display: none;
-      .recommend{
+      &__recommend{
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
@@ -76,13 +76,13 @@ body{
         text-align: justify;
       }
     }
-    .result.ResultB{
+    .ResultB{
       padding: 20px;
       border: 3px solid #f1f1f1;
       box-sizing: border-box;
       margin: 0 auto;
       display: none;
-      .recommend{
+      &__recommend{
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
@@ -100,13 +100,13 @@ body{
         text-align: justify;
       }
     }
-    .result.ResultC{
+    .ResultC{
       padding: 20px;
       border: 3px solid #f1f1f1;
       box-sizing: border-box;
       margin: 0 auto;
       display: none;
-      .recommend{
+      &__recommend{
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
@@ -124,13 +124,13 @@ body{
         text-align: justify;
       }
     }
-    .result.ResultD{
+    .ResultD{
       padding: 20px;
       border: 3px solid #f1f1f1;
       box-sizing: border-box;
       margin: 0 auto;
       display: none;
-      .recommend{
+      &__recommend{
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
