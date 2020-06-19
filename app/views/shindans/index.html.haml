@@ -1,99 +1,93 @@
-#wrapper 
+#wrapper
   .question
-    %h1{"class"=>"title"}プログラマー適正テスト
-    %ul{"class"=>"questions"}
-      %li{"class"=>"textBox"}
-        %span{"class"=>"text"}Q1. IT、最新技術について興味がある
-        %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q01", :class=>"typeA typeB typeC"}
-          YES 
-        %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q01", :class=>"typeC typeD typeE"}
-          NO
-      %li{"class"=>"textBox"}
-        %span{"class"=>"text"}Q2. 物事の因果関係を考えるのが苦手
-        %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q02", :class=>"typeC typeD typeE"}
+    %h1.title ソーシャルスタイル診断
+    %ul.questions
+      %li.textBox
+        %span.text Q1. 冷静で人からの指示は嫌い
+        %label.yes
+          %input.typeA.typeD{:name => "q01", :type => "radio"}>/
           YES
-        %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q02", :class=>"typeA typeB typeC"}
+        %label.no
+          %input.typeB.typeC{:name => "q01", :type => "radio"}>/
           NO
-      %li{"class"=>"textBox"}
-        %span{"class"=>"text"}Q3. 自分はめんどくさがり屋だ
-        %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q03", :class=>"typeA typeC"}
+      %li.textBox
+        %span.text Q2. 自分の話をすることを好む
+        %label.yes
+          %input.typeB.typeA{:name => "q02", :type => "radio"}>/
           YES
-        %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q03", :class=>"typeB typeC typeD typeE"}
+        %label.no
+          %input.typeC.typeD{:name => "q02", :type => "radio"}>/
           NO
-      %li{"class"=>"textBox"}
-        %span{"class"=>"text"}Q4. スポーツや体を動かす事が好き
-        %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q04", :class=>"typeA typeB typeC"}
+      %li.textBox
+        %span.text Q3. 周りの意見を大事にする方だ
+        %label.yes
+          %input.typeC.typeD{:name => "q03", :type => "radio"}>/
           YES
-        %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q04", :class=>"typeC typeD typeE"}
+        %label.no
+          %input.typeA.typeB{:name => "q03", :type => "radio"}>/
           NO
-      %li{"class"=>"textBox"}
-        %span{"class"=>"text"}Q5. 小学生の頃、工作が好きだった
-        %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q05", :class=>"typeA typeB typeC"}
+      %li.textBox
+        %span.text Q4. 情報を集めたり分析することが得意だ
+        %label.yes
+          %input.typeD.typeC{:name => "q04", :type => "radio"}>/
           YES
-        %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q05", :class=>"typeD typeE"}
+        %label.no
+          %input.typeA.typeB{:name => "q04", :type => "radio"}>/
           NO
-      %li{"class"=>"textBox"}
-        %span{"class"=>"text"}Q6. なんでも自力で解決しようとする
-        %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q06", :class=>"typeE"}
+      %li.textBox
+        %span.text Q5. 戦略立案や勝負事への興味が強い
+        %label.yes
+          %input.typeA.typeD{:name => "q05", :type => "radio"}>/
           YES
-        %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q06", :class=>"typeA typeB typeC typeD"}
+        %label.no
+          %input.typeB.typeC{:name => "q05", :type => "radio"}>/
           NO
-      %li{"class"=>"textBox"}
-        %span{"class"=>"text"}Q7. なにごとも疑問を抱かない
-        %label{"class"=>"yes"}
-          %input{:type=> "radio", :name=> "q07", :class=>"typeE"}
+      %li.textBox
+        %span.text Q6. ノリがよくムードメーカーだと言われる
+        %label.yes
+          %input.typeB.typeC{:name => "q06", :type => "radio"}>/
           YES
-        %label{"class"=>"no"}
-          %input{:type=> "radio", :name=> "q07", :class=>"typeA typeB typeC typeD"}
+        %label.no
+          %input.typeA.typeD{:name => "q06", :type => "radio"}>/
           NO
-    %button
-      診断する
+      %li.textBox
+        %span.text Q7. 気配り上手、聞き上手と言われる
+        %label.yes
+          %input.typeC.typeD{:name => "q07", :type => "radio"}>/
+          YES
+        %label.no
+          %input.typeA.typeB{:name => "q07", :type => "radio"}>/
+          NO
+      %li.textBox
+        %span.text Q8. 感情を表に出すのは、苦手だ
+        %label.yes
+          %input.typeD.typeA{:name => "q08", :type => "radio"}>/
+          YES
+        %label.no
+          %input.typeC.typeB{:name => "q08", :type => "radio"}>/
+          NO
+    %button 診断する
   .result.ResultA
-    .ResultA__recommend あなたのプログラマー適正は・・・・
+    .ResultA__recommend あなたの性格は・・・・
     .ResultA__Amenu
-      .ResultA__Amenu__text
-        適正度100％ [ビルゲイツ レベル]
-    %p
-      いますぐプログラミングの勉強を始めてGAFA入社を目指そう！
+      .ResultA__Amenu__text 前進型・行動派
+    %p あなたは迅速かつ合理的に仕事を進めるタイプです。ビジネスライクな性格で、プロセスよりも結果を重視し、決断力に優れています。経営者に多いタイプに多いとされます。
+    = image_tag("close-up-face-fashion-fine-looking-450212.jpg", width: "306px",class: "image")
   .result.ResultB
-    .ResultB__recommend あなたのプログラマー適正は・・・・
+    .ResultB__recommend あなたの性格は・・・・
     .ResultB__Bmenu
-      .ResultB__Bmenu__text
-        適性度75％  [ザッカーバーグ レベル]
-    %p
-      将来のエリートプログラマー候補生。素質は充分にあります！
+      .ResultB__Bmenu__text 直感型・感覚派
+    %p あなたは、周りから注目されることを好むタイプです。ビジネス面では、自ら先頭に立って人を率いていく傾向にあります。
+    = image_tag("men-s-white-button-up-dress-shirt-708440.jpg", width: "306px",class: "image")
   .result.ResultC
-    .ResultC__recommend あなたのプログラマー適正は・・・・
+    .ResultC__recommend あなたの性格は・・・・
     .ResultC__Cmenu
-      .ResultC__Cmenu__text
-        適性度50%  [前沢社長 レベル]
-    %p
-      プログラマー視点を持ったビジネスマンを目指しましょう！
+      .ResultC__Cmenu__text 温和型・協調派
+    %p あなたは、どこにいてもみんなの調停役になるタイプです。周囲の気持ちに敏感で、自分の話をするよりも相手の話に耳を傾ける傾向にあります。
+    = image_tag("woman-wearing-teal-dress-sitting-on-chair-talking-to-man-2422280.jpg", width: "306px",class: "image")
   .result.ResultD
-    .ResultD__recommend あなたのプログラマー適正は・・・・
+    .ResultD__recommend あなたの性格は・・・・
     .ResultD__Dmenu
-      .ResultD__Dmenu__text
-        適性度25% [ドンキホーテ社長レベル]
-    %p
-      プログラミングの知識を教養として学ぶ事をおすすめします！
-  .result.ResultE
-    .ResultE__recommend あなたのプログラマー適正は・・・・
-    .ResultE__Emenu
-      .ResultE__Emenu__text
-        適性度0% [縄文人レベル]
-    %p
-      プログラミング以外の道を目指しましょう！
-
-
+      .ResultD__Dmenu__text 分析型・思考派
+    %p あなたは、独特の価値観や雰囲気を持っていて、周囲に影響されにくいマイペースな人です。仕事においては、データの収集や分析に黙々と取り組みます。
+    = image_tag("person-using-a-laptop-3183131.jpg", width: "306px",class: "image")

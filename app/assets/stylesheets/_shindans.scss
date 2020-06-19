@@ -3,6 +3,7 @@ body{
   color: #333;
   font-size: 14px;
   line-height: 1.7;
+  text-align: center;
   #wrapper{
     max-width: 550px;
     margin: 0 auto;
@@ -75,6 +76,9 @@ body{
       p{
         text-align: justify;
       }
+      .image{
+        margin-top: 20px;
+      }
     }
     .ResultB{
       padding: 20px;
@@ -98,6 +102,9 @@ body{
       }
       p{
         text-align: justify;
+      }
+      .image{
+        margin-top: 20px;
       }
     }
     .ResultC{
@@ -123,6 +130,9 @@ body{
       p{
         text-align: justify;
       }
+      .image{
+        margin-top: 20px;
+      }
     }
     .ResultD{
       padding: 20px;
@@ -147,6 +157,9 @@ body{
       p{
         text-align: justify;
       }
+      .image{
+        margin-top: 20px;
+      }
     }
     .ResultE{
       padding: 20px;
@@ -170,6 +183,9 @@ body{
       }
       p{
         text-align: justify;
+      }
+      .image{
+        margin-top: 20px;
       }
     }
   }
