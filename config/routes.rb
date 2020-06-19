@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :shindans, only: :index
+  root to: "shindans#index"
 end

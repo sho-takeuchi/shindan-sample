@@ -148,5 +148,29 @@ body{
         text-align: justify;
       }
     }
+    .ResultE{
+      padding: 20px;
+      border: 3px solid #f1f1f1;
+      box-sizing: border-box;
+      margin: 0 auto;
+      display: none;
+      &__recommend{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      &__Dmenu{
+        margin-bottom: 20px;
+        text-align: center;
+        &__text{
+        font-size: 24px;
+        font-weight: bold;
+        }
+      }
+      p{
+        text-align: justify;
+      }
+    }
   }
 }
