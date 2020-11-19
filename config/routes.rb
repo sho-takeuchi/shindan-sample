@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root to: "shindans#index"
+  root to: "shindans#question"
 end

@@ -1,5 +1,5 @@
 class ShindansController < ApplicationController
-  def index
+  def question
     @shindans = Shindan.all
   end
 end

@@ -15,7 +15,7 @@ $(function(){
             typeBNum = $(".typeB:checked").length,
             typeCNum = $(".typeC:checked").length,
             typeDNum = $(".typeD:checked").length,
-            typeENum = $(".typeD:checked").length;
+            typeENum = $(".typeE:checked").length;
             const max = Math.max(typeANum, typeBNum, typeCNum, typeDNum, typeENum);
             if( typeANum >= max) {
                 $(".ResultA").fadeIn();
