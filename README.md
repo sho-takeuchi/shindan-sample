@@ -1,24 +1,9 @@
-# README
+https://shindans.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ソーシャルスタイル理論に基づいて作りました。
 
-Things you may want to cover:
+10秒で診断できます！
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ぜひ、活用してみてください！
+ソーシャルスタイルとは、1968年にアメリカの産業心理学者であるデビッド・メリル氏が提唱したコミュニケーションの理論です。人の言動を4つのスタイルに分けて分析し、相手が望ましいと感じる対応を探し、選択する方法として活用されています。人の言動を単純に4つに分けることはできませんが、大まかな方向性としていずれかのスタイルに分類されるといわれています。
+営業職や販売職、コンタクトセンターのオペレーターなど、直接顧客と関わる職業ではソーシャルスタイル理論を理解することで、コミュニケーションがスムーズになるとされ、取り入れている企業も少なくありません。
